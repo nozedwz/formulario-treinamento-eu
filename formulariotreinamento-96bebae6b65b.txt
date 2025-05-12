@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "formulariotreinamento",
+  "private_key_id": "96bebae6b65ba5db8655f209551c447607d23c06",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC2rZ31Wil64m4d\nF8WI13ujqXYyLfmkokvBmBsj9yxKWoLa0JbdWBjl6K5dBSrewxbaZUu5+a6x3c1l\ncBlzgTsGLEjC6tBgZvWjpls3UNq0oesQe/JYWSC0AlDGyd689bm7Vtr+3cidR0lC\ndzmcV9uFPShtPj4g6bNqW1/xM5bSzEFUt9/8UnZBJx3qc0Det1lTyCnmSs5YdDhB\nivBb1EGVuBmRmU+YmsN0mmpNVx+XkEztp8jvIvD4akkW+7n0saZxTV7Xhh9KVwlp\nzSUvA9muaw8ig3nQeMQvHEFqsHkHoHYrHfjYOQpbFE/J9/5S/1y9bj3TvljHlUm9\nGzvlL7iJAgMBAAECggEACUrLS0LM85nfN0ZhZ0irurtY3mxRg6b4QsaXkdSluXoB\naDs+Q0/TA2XasbNctwRWLiGDMLhzQwuo4iEpwEL5c0LPKDAMzayLD+obP3TyzQej\n9vyRCx6sf8+S14vG81Zt/koonVh/dwWcY7/AC9R5v30pCGaHP0IX/N/dQV4KDNqd\n6/8LODKIoWP5LDthS0WrSLAiMgy5nEIe1vnlsSUOXRVD4Z1aZ1p3GvGDn0Cz7Qxc\ni/skoVUy3axN4GrLoWbyH0CH395DvYx5LajWiBH2vA91jxuU38fZcencyr5wzOsj\nNq+QrTtntVITtOjc1+9hb1bLBYBkYIrJWwTlWUYKEQKBgQD9kw3XDFLK/4tLYC63\nPTo0wC3bnxS7eJ6MX5YWDeVP4OO2AC3/r/hI8pQiRFodYsq1tfLBsfzH/SHrA4SN\nujuYAP81iFvbayWl6jeiLILmYvU7ObHY3g7WcqCjOOrfOCOK5Pwy9JI2QhH+u3dX\nBeVszdCOkeRmLjAh7RiRP5vvmQKBgQC4bPRJe6C6MFTybB9PYYrE9fFhDLXfzt/Z\nPaiB3611QwMZ51og1AQiTHO52d6wundP1MXxa/ylzLkp1HtYQQ886Yft0kdo0Gwv\nbpK0J6mUVBM02KIr/eMGIHGyIiBnzNL8DDLjpxMfB9VclhXaX+h2rBF/5DzFTknQ\nu/oTbYRmcQKBgFbUCPQvMxZxxJfN2pFCNPElMU63vVioZ9n3TSRGI9RjVHXYv+eC\nsQkBj3ngX98aGgF4ySRMNxuf8QJRVQ1WzNsy1DDXfWS33s9eUSiGB1iuX/ykt+Jj\nvz7tR1Y8wignR/xihn1IQ9yyaQkJ1kaFLVdBbn2zNTtL641ia3wpBNNZAoGAGk2X\nzb8vHj70bprTIFw2EX9OTNwmOGRl8rLjjJpdP+Mt1wzzAsmaSVYED1audyAxEhaz\noIoZP4BiTD/804p75OEdvOKHwsAvHdi0XbNmcTxIfPoEryeHsIECFjjdzFAfK0mG\nHIfgp0VTvd++ACY7nmlOGaJwtGdFCds1gH3XK1ECgYEAg+fPdQgJh+PCAPy3akxF\nuXHMKjcaNWk0jZrmToFoAg+Gn5oOZRIbXIZ7aFldFLaRalM0N36gzG0b2yi9k+yG\nw3OTCubU0wPaNU8WtXvCkD8aWOvKwT44LIRkirKtIDDyM02/GMB3k1yTCUGmLcyV\nXHP0CrBVINjRwanzLZ4kg9M=\n-----END PRIVATE KEY-----\n",
+  "client_email": "formsideia2001@formulariotreinamento.iam.gserviceaccount.com",
+  "client_id": "102128161739625925546",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/formsideia2001%40formulariotreinamento.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

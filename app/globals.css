@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+    --primary: 31 96% 51%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 240 4.8% 95.9%;
+    --secondary-foreground: 240 5.9% 10%;
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+    --accent: 240 4.8% 95.9%;
+    --accent-foreground: 240 5.9% 10%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 31 96% 51%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    /* Fundo mais escuro, similar ao Notepad do Windows em modo escuro */
+    --background: 0 0% 13%; /* Alterado para #333333 */
+    --foreground: 0 0% 98%;
+
+    /* Elementos de formulário mantêm o tom de cinza médio */
+    --card: 0 0% 16%; /* Alterado para #404040 */
+    --card-foreground: 0 0% 98%;
+    --popover: 0 0% 16%; /* Alterado para #404040 */
+    --popover-foreground: 0 0% 98%;
+    --primary: 31 96% 51%;
+    --primary-foreground: 240 5.9% 10%;
+    --secondary: 0 0% 16%; /* Alterado para #404040 */
+    --secondary-foreground: 0 0% 98%;
+    --muted: 0 0% 16%; /* Alterado para #404040 */
+    --muted-foreground: 240 5% 64.9%;
+    --accent: 0 0% 16%; /* Alterado para #404040 */
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    /* Bordas pretas para realçar os campos */
+    --border: 0 0% 0%;
+    --input: 0 0% 0%;
+    --ring: 31 96% 51%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* Estilos específicos para campos de entrada no modo escuro */
+.dark .input-field {
+  @apply border-black bg-zinc-700;
+}
