@@ -73,7 +73,7 @@ Link da reunião: ${meetLink}`,
         url: meetLink,
         status: "CONFIRMED",
         busyStatus: "BUSY",
-        organizer: { name: "Ideia2001", email: process.env.EMAIL_USER || "kevyn@ideia2001.com.br" },
+        organizer: { name: "Ideia2001", email: process.env.EMAIL_USER || "NÃOPOSSOINFORMAR" },
         attendees: dados.participantes.map((p) => ({
           name: p.nome,
           email: p.email,
@@ -170,7 +170,7 @@ export async function enviarConviteReuniao(dados: DadosConvite): Promise<boolean
         ]
 
         const info = await transporter.sendMail({
-          from: `"Ideia2001" <${process.env.EMAIL_USER || "kevyn@ideia2001.com.br"}>`,
+          from: `"Ideia2001" <${process.env.EMAIL_USER || "NÃOPOSSOINFORMAR"}>`,
           to: participante.email,
           subject: assunto,
           html: html,
