@@ -3,17 +3,18 @@ import { format } from "date-fns"
 import { createEvent } from "ics"
 
 // Lista de links fixos do Google Meet
-const MEET_LINKS = [
-  "https://meet.google.com/yvh-xyrn-uqk",
-  "https://meet.google.com/qqh-xybv-txr",
-  "https://meet.google.com/htm-wtvq-ybe",
-  "https://meet.google.com/tcc-chsu-vge",
-  "https://meet.google.com/nbc-gtbe-kqj",
-  "https://meet.google.com/cgm-vxua-wjz",
-  "https://meet.google.com/tun-mhqb-dyq",
-  "https://meet.google.com/ree-pbzk-ivt",
-  "https://meet.google.com/gta-yzey-sgf",
-  "https://meet.google.com/zpb-ysmv-rea",
+const MEET_LINKS = 
+
+  "https://meet.google.com/não posso informar",
+  "https://meet.google.com/não posso informar",
+  "https://meet.google.com/não posso informar",
+  "https://meet.google.com/não posso informar",
+  "https://meet.google.com/não posso informar",
+  "https://meet.google.com/não posso informar", 
+  "https://meet.google.com/não posso informar",
+  "https://meet.google.com/não posso informar",
+  "https://meet.google.com/não posso informar",
+  "https://meet.google.com/não posso informar", 
 ]
 
 // Interface para os dados do convite
@@ -30,8 +31,8 @@ const transporter = nodemailer.createTransport({
   port: Number.parseInt(process.env.EMAIL_PORT || "465"),
   secure: true, // Forçando secure como true para porta 465
   auth: {
-    user: process.env.EMAIL_USER || "kevyn@ideia2001.com.br",
-    pass: process.env.EMAIL_PASSWORD || "ideia2001@Kevyn",
+    user: process.env.EMAIL_USER || "NÃOPOSSOINFORMAR",
+    pass: process.env.EMAIL_PASSWORD || "NÃOPOSSOINFORMAR",
   },
   tls: {
     // Não rejeitar certificados autoassinados
